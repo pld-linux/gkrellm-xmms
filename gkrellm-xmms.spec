@@ -2,12 +2,12 @@ Summary:	XMMS plugin for gkrellm
 Summary(pl):	Plugin gkrellm do XMMS
 Summary(pt_BR):	Plugin gkrellm para o XMMS
 Name:		gkrellm-xmms
-Version:	2.1.12
+Version:	2.1.13
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://gkrellm.luon.net/files/gkrellmms-%{version}.tar.gz
-# Source0-md5:	e4e6ed080d08ef9f5f7677becd01981d
+# Source0-md5:	d24e84138ce23713c578d9917fc48c81
 URL:		http://gkrellm.luon.net/gkrellmms.phtml
 BuildRequires:	gkrellm-devel >= 2.0
 BuildRequires:	gtk+2-devel
@@ -28,7 +28,8 @@ Um plugin GKrellM para controlar o XMMS a partir do GKrellM.
 %setup -q -n gkrellmms
 
 %build
-%{__make} CFLAGS="%{rpmcflags}"
+%{__make} \
+	CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
