@@ -11,6 +11,7 @@ Source0:	http://gkrellm.luon.net/files/gkrellmms-%{version}.tar.gz
 URL:		http://gkrellm.luon.net/gkrellmms.phtml
 BuildRequires:	gkrellm-devel >= 2.0
 BuildRequires:	gtk+2-devel
+BuildRequires:	pkgconfig
 BuildRequires:	xmms-devel
 Requires:	gkrellm >= 2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
