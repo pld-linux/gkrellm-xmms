@@ -1,5 +1,4 @@
 Summary:	XMMS plugin for gkrellm
-Summary(es):	XMMS plugin for gkrellm
 Summary(pl):	Plugin gkrellm do XMMS
 Summary(pt_BR):	Plugin gkrellm para o XMMS
 Name:		gkrellm-xmms
@@ -20,9 +19,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_prefix		/usr/X11R6
 
 %description
-A GKrellM plugin which allows you to control XMMS from within GKrellM.
-
-%description -l es
 A GKrellM plugin which allows you to control XMMS from within GKrellM.
 
 %description -l pl
