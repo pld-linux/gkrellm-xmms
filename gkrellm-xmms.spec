@@ -7,6 +7,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://gkrellm.luon.net/files/gkrellmms-%{version}.tar.gz
+# Source0-md5:	daad5e784e6df87949b5225943891e1e
 URL:		http://gkrellm.luon.net/gkrellmms.phtml
 BuildRequires:	gkrellm-devel >= 2.0
 BuildRequires:	gtk+2-devel
