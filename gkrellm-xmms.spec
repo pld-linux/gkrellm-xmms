@@ -2,7 +2,7 @@ Summary:	XMMS plugin for gkrellm
 Summary(pl):	Plugin gkrellm do XMMS
 Summary(pt_BR):	Plugin gkrellm para o XMMS
 Name:		gkrellm-xmms
-Version:	2.1
+Version:	2.1.7
 Release:	2
 License:	GPL
 Group:		X11/Applications
