@@ -1,6 +1,6 @@
 Summary:	XMMS plugin for gkrellm
-Summary(pl):	Plugin gkrellm do XMMS
-Summary(pt_BR):	Plugin gkrellm para o XMMS
+Summary(pl.UTF-8):   Plugin gkrellm do XMMS
+Summary(pt_BR.UTF-8):   Plugin gkrellm para o XMMS
 Name:		gkrellm-xmms
 Version:	2.1
 Release:	1
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A GKrellM plugin which allows you to control XMMS from within GKrellM.
 
-%description -l pl
-Plugin GKrellM pozwalaj±cy na sterowanie XMMS.
+%description -l pl.UTF-8
+Plugin GKrellM pozwalajÄ…cy na sterowanie XMMS.
 
-%description -l pt_BR
+%description -l pt_BR.UTF-8
 Um plugin GKrellM para controlar o XMMS a partir do GKrellM.
 
 %prep
