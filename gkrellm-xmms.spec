@@ -1,6 +1,6 @@
 Summary:	XMMS plugin for gkrellm
-Summary(pl.UTF-8):   Plugin gkrellm do XMMS
-Summary(pt_BR.UTF-8):   Plugin gkrellm para o XMMS
+Summary(pl.UTF-8):	Plugin gkrellm do XMMS
+Summary(pt_BR.UTF-8):	Plugin gkrellm para o XMMS
 Name:		gkrellm-xmms
 Version:	2.1.22
 Release:	1
